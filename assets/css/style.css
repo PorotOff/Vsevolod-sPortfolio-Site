@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Montserrat-regular';
+    src: url('../resourses/mediaFiles/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-medium';
+    src: url('../resourses/mediaFiles/fonts/Montserrat/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url('../resourses/mediaFiles/fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-black';
+    src: url('../resourses/mediaFiles/fonts/Montserrat/Montserrat-Black.ttf');
+}
+
+html {
+    height: 98%;
+}
+
+body {
+    height: 100%;
+
+    font-family: 'Montserrat-regular';
+    font-style: normal;
+
+    background-image: url('/assets/resourses/mediaFiles/images/Backgrounds/Background1FullHD.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    color: #ffffff;
+}
+
+.labels {
+    width: fit-content;
+
+    margin-left: 25px;
+
+    display: flex;
+    
+    font-family: 'Montserrat-bold';
+
+    font-size: 18px;
+}
+.acrilLabel {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border-radius: 10px 10px 0 0;
+    border: 1px solid Rgba(255, 255, 255, 0.18);
+
+    box-shadow: 0 0px 30px 0 Rgba(0, 0, 0, 0.5);
+
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.selectedLabel {
+    background: rgba(255, 255, 255, 0);
+}
+
+.pageHat {
+    width: fit-content;
+
+    border-radius: 25px;
+
+    background: rgb(30, 168, 53);
+    box-shadow: 0px 25px 25px -14px rgba(0, 0, 0, 0.5);
+}
+
+.pageTitle {
+    width: 400px;
+    
+    font-family: 'Montserrat-black';
+    font-size: 50px;    
+    
+    margin: auto;
+}
+
+.filter-button {
+    background: rgb(215, 215, 215);
+    
+    font-family: 'Montserrat-bold';
+
+    width: fit-content;
+    height: fit-content;
+
+    padding: 10px;
+
+    margin-left: 1px;
+    margin-right: 1px;
+
+    border-radius: 10px;
+    border: none;
+}
+
+.filter-item {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.title {
+    width: fit-content;
+    
+    font-family: 'Montserrat-bold';
+
+    text-align: center;
+    
+    margin: 0;
+    margin-left: -10px;
+    margin-top: 75px;
+    
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 30px;
+    
+    background: rgb(215, 215, 215);
+    border-radius: 0 50px 50px 0;
+}
+
+.description {
+    width: 500px;
+
+    text-align: justify;
+}
+
+.gallery {
+    width: fit-content;
+    max-width: 97%;
+    height: fit-content;
+
+    display: flex;
+
+    margin: auto;
+    
+    padding: 30px;
+    
+    overflow-x: scroll;
+}
+.gallery::-webkit-scrollbar {
+    height: 50px;
+    width: 100px;
+}
+.gallery::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0); /* Цвет фона трека */
+    border-radius: 25px 25px 25px 25px;
+}
+.gallery::-webkit-scrollbar-thumb {
+    background: rgba(158, 252, 255, 0.6);
+    border-radius: 25px 25px 25px 25px;
+}
+.gallery * {
+    display: inline-block;
+    
+    width: 440px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    border-radius: 25px;
+}
+
+.links {
+    width: fit-content;
+
+    text-align: center;
+}
+.links * {
+    margin: 10px;
+}
+
+/* Generic properties */
+.links, .description {
+    font-family: 'Montserrat-medium';
+    font-size: 18px;
+    color: white;
+}
+
+.indent {
+    margin: auto;
+}
+
+.acrilBackground {
+    background: rgba(0, 0, 0, 0.2);
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border-radius: 25px;
+    border: 1px solid Rgba(255, 255, 255, 0.18);
+
+    box-shadow: 0 0px 30px 0 Rgba(0, 0, 0, 0.5);
+
+    padding: 30px;
+}
+
+.textAura {
+    text-shadow: 0 0 30px #ffffff;
+}
+
+/* Modal elements */
+
+.modal {
+    backdrop-filter: blur(5px);
+}
+
+.modalElement {
+    box-shadow: 0 0 30px 15px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
