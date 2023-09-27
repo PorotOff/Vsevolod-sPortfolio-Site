@@ -28,7 +28,7 @@ body {
     font-family: 'Montserrat-regular';
     font-style: normal;
 
-    background-image: url('/assets/resourses/mediaFiles/images/Backgrounds/Background1FullHD.png');
+    background-image: url('./assets/resourses/mediaFiles/images/Backgrounds/Background1FullHD.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
